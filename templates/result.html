@@ -1,0 +1,15 @@
+<!doctype html>
+<html>
+<head>
+    <title>Most Common Words</title>
+</head>
+<body>
+    <h1>Where words, huh?</h1>
+    <ul>
+        {% for word, count in words %}
+            <li>{{ word }}: {{ count }} times</li>
+        {% endfor %}
+    </ul>
+    <a href="/">Upload another file</a>
+</body>
+</html>
